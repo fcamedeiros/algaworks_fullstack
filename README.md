@@ -9,11 +9,13 @@
 
 ## Endpoints
 ```
-* Listar Categorias..............: (GET)  http://localhost:8080/categorias
-* Recuperar Categoria pelo Código: (GET)  http://localhost:8080/categorias/{codigo}
-* Salvar Categoria...............: (POST) http://localhost:8080/categorias
+- Listar Categorias..............: (GET)  http://localhost:8080/categorias
+- Recuperar Categoria pelo Código: (GET)  http://localhost:8080/categorias/{codigo}
+- Salvar Categoria...............: (POST) http://localhost:8080/categorias
 ```
 
 ## Status Codes
-* 200: Ok
-* 201: Created
+- 200: Ok
+- 201: Created
+- 400: Bad Request
+- 404: Not Found
