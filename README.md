@@ -5,3 +5,14 @@
 
 ## Requisitos
 1. Flyway (https://flywaydb.org/)
+1. MySql (https://www.mysql.com/)
+2. Flyway (https://flywaydb.org/)
+
+## Endpoints
+* Listar Categorias..............: (GET)  http://localhost:8080/categorias
+* Recuperar Categoria pelo Código: (GET)  http://localhost:8080/categorias/{codigo}
+* Salvar Categoria...............: (POST) http://localhost:8080/categorias
+
+## Status Codes
+* 200: Ok
+* 201: Created
