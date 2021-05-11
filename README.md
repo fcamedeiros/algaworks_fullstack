@@ -13,12 +13,15 @@ Categoria:
 - ```Listar Categorias..............: (GET)    http://localhost:8080/categorias```
 - ```Recuperar Categoria pelo Código: (GET)    http://localhost:8080/categorias/{codigo}```
 - ```Salvar Categoria...............: (POST)   http://localhost:8080/categorias```
+- ```Atualizar Categoria............: (PUT)    http://localhost:8080/categorias/{codigo}```
 - ```Apagar Categoria...............: (DELETE) http://localhost:8080/categorias/{codigo}```
 
 Pessoa:
 - ```Listar Pessoas.................: (GET)    http://localhost:8080/pessoas```
 - ```Recuperar Pessoa pelo Código...: (GET)    http://localhost:8080/pessoas/{codigo}```
 - ```Salvar Pessoa..................: (POST)   http://localhost:8080/pessoas```
+- ```Atualizar Pessoa...............: (PUT)    http://localhost:8080/pessoas/{codigo}```
+- ```Atualizar Propriedade Ativo....: (PUT)    http://localhost:8080/pessoas/{codigo}/ativo```
 - ```Apagar Pessoa..................: (DELETE) http://localhost:8080/pessoas/{codigo}```
 
 ## Status Codes
