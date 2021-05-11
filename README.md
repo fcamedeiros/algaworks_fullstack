@@ -10,15 +10,16 @@
 ## Endpoints
 
 Categoria:
-- ```Listar Categorias..............: (GET)   http://localhost:8080/categorias```
-- ```Recuperar Categoria pelo Código: (GET)   http://localhost:8080/categorias/{codigo}```
-- ```Salvar Categoria...............: (POST)  http://localhost:8080/categorias```
+- ```Listar Categorias..............: (GET)    http://localhost:8080/categorias```
+- ```Recuperar Categoria pelo Código: (GET)    http://localhost:8080/categorias/{codigo}```
+- ```Salvar Categoria...............: (POST)   http://localhost:8080/categorias```
+- ```Apagar Categoria...............: (DELETE) http://localhost:8080/categorias/{codigo}```
 
 Pessoa:
-- ```Listar Pessoas.................: (GET)   http://localhost:8080/pessoas```
-- ```Recuperar Pessoa pelo Código...: (GET)   http://localhost:8080/pessoas/{codigo}```
-- ```Salvar Pessoa..................: (POST)  http://localhost:8080/pessoas```
-- ```Apagar Pessoa..................: (DELET) http://localhost:8080/pessoas/{codigo}```
+- ```Listar Pessoas.................: (GET)    http://localhost:8080/pessoas```
+- ```Recuperar Pessoa pelo Código...: (GET)    http://localhost:8080/pessoas/{codigo}```
+- ```Salvar Pessoa..................: (POST)   http://localhost:8080/pessoas```
+- ```Apagar Pessoa..................: (DELETE) http://localhost:8080/pessoas/{codigo}```
 
 ## Status Codes
 - 200: Ok
