@@ -28,6 +28,8 @@ Pessoa:
 Lançamento:
 - ```Listar Lançamento...............: (GET)    http://localhost:8080/lancamentos```
 - ```Recuperar Lançamento pelo Código: (GET)    http://localhost:8080/lancamentos/{codigo}```
+- ```Recuperar Lançamento pela Descr.: (GET)    http://localhost:8080/lancamentos?descricao={descricao}```
+- ```Recuperar Lançamento pelo Vencto: (GET)    http://localhost:8080/lancamentos?dataVencimentoDe={yyyy-mm-dd}&dataVencimentoAte={yyyy-mm-dd}```
 - ```Criar Lançamento................: (POST)   http://localhost:8080/lancamentos```
 
 ## Status Codes
