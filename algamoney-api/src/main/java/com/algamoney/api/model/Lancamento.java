@@ -35,13 +35,14 @@ public class Lancamento {
 	
 	@Column(name = "data_pagamento")
 	@JsonFormat(pattern = "yyyy-MM-dd")
-	private LocalDate data_pagamento;
+	private LocalDate dataPagamento;
 	
 	@NotNull
 	private BigDecimal valor;
 	
 	private String observacao;
 	
+	@NotNull
 	@Enumerated(EnumType.STRING)
 	private TipoLancamento tipo;
 	
@@ -79,12 +80,12 @@ public class Lancamento {
 		this.dataVencimento = datavencimento;
 	}
 
-	public LocalDate getData_pagamento() {
-		return data_pagamento;
+	public LocalDate getDataPagamento() {
+		return dataPagamento;
 	}
 
-	public void setData_pagamento(LocalDate data_pagamento) {
-		this.data_pagamento = data_pagamento;
+	public void setDataPagamento(LocalDate dataPagamento) {
+		this.dataPagamento = dataPagamento;
 	}
 
 	public BigDecimal getValor() {

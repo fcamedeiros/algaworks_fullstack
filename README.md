@@ -6,6 +6,7 @@
 ## Requisitos
 1. MySql (https://www.mysql.com/)
 2. Flyway (https://flywaydb.org/)
+3. Apache Commons Lang (https://commons.apache.org/proper/commons-lang/)
 
 ## Endpoints
 
